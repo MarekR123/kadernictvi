@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kadeřnický salon Martina | Tachov</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1, h2, h3 { font-family: 'Playfair Display', serif; }
+  </style>
+</head>
+<body class="bg-stone-50 text-stone-800">
+
+  <!-- Header / Navigace -->
+  <header class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-stone-200">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold tracking-wide text-stone-900">Salon Martina</a>
+      <nav class="hidden md:flex gap-8 font-medium text-stone-600">
+        <a href="#o-nas" class="hover:text-amber-700 transition">O nás</a>
+        <a href="#sluzby" class="hover:text-amber-700 transition">Služby</a>
+        <a href="#kontakt" class="hover:text-amber-700 transition">Kontakt</a>
+      </nav>
+      <a href="tel:736684288" class="bg-amber-800 hover:bg-amber-900 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition shadow-sm">
+        📞 736 684 288
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero sekce -->
+  <section class="relative bg-stone-900 text-white py-24 px-6 text-center">
+    <div class="max-w-3xl mx-auto space-y-6">
+      <span class="text-amber-400 font-medium tracking-widest uppercase text-sm">Kadeřnictví Tachov</span>
+      <h1 class="text-4xl md:text-6xl font-bold leading-tight">Profesionální péče o vaše vlasy a styl</h1>
+      <p class="text-stone-300 text-lg md:text-xl max-w-2xl mx-auto">
+        Dámské, pánské i dětské kadeřnictví. Specializujeme se na ozdravení vlasů Brazilským keratinem, svatební účesy a značkovou kosmetiku Goldwell.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center pt-4">
+        <a href="tel:736684288" class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3.5 rounded-full font-semibold transition text-lg">
+          Objednat se telefonicky
+        </a>
+        <a href="#sluzby" class="border border-stone-400 hover:bg-white/10 text-white px-8 py-3.5 rounded-full font-semibold transition text-lg">
+          Prohlédnout služby
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Služby -->
+  <section id="sluzby" class="py-20 max-w-6xl mx-auto px-6">
+    <div class="text-center mb-14">
+      <h2 class="text-3xl md:text-4xl font-bold mb-3">Naše Služby</h2>
+      <p class="text-stone-600">Nabízíme kompletní kadeřnický servis pro celou rodinu</p>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+        <div class="text-amber-700 text-3xl mb-4">✂️</div>
+        <h3 class="text-xl font-bold mb-2">Dámské & Pánské střihy</h3>
+        <p class="text-stone-600 text-sm">Moderní a kreativní účesy pro každou příležitost, stříhání horkými nůžkami i dětské střihy.</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+        <div class="text-amber-700 text-3xl mb-4">✨</div>
+        <h3 class="text-xl font-bold mb-2">Brazilský Keratin</h3>
+        <p class="text-stone-600 text-sm">Hloubkové ozdravení a narovnání poškozených vlasů pro dlouhotrvající lesk a jemnost.</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-200">
+        <div class="text-amber-700 text-3xl mb-4">🎨</div>
+        <h3 class="text-xl font-bold mb-2">Barvení & Melíry</h3>
+        <p class="text-stone-600 text-sm">Kombinované melíry, přelivy a zesvětlení pracující výhradně s kvalitní kosmetikou Goldwell.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kontakt & Otevírací doba -->
+  <section id="kontakt" class="bg-stone-100 py-16 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-3xl font-bold mb-6">Navštivte nás</h2>
+        <div class="space-y-4 text-stone-700">
+          <p><strong>Adresa:</strong> K. H. Borovského 113 (pod ČSOB), 347 01 Tachov</p>
+          <p><strong>Telefon:</strong> <a href="tel:736684288" class="text-amber-800 underline">736 684 288</a></p>
+          <p><strong>E-mail:</strong> martinakunzova@seznam.cz</p>
+          <div class="pt-4 border-t border-stone-300">
+            <h4 class="font-bold mb-2">Otevírací doba:</h4>
+            <p>Pondělí – Pátek: 8:30 – 17:30</p>
+            <p>Sobota: 8:30 – 12:00</p>
+            <p class="text-sm text-stone-500 mt-1">* Večerní a nedělní termíny po telefonické dohodě.</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-sm border border-stone-200 text-center">
+        <h3 class="text-2xl font-bold mb-4">Chcete se objednat?</h3>
+        <p class="text-stone-600 mb-6">Zavolejte nám a domluvte si termín přesně podle vašich časových možností.</p>
+        <a href="tel:736684288" class="inline-block bg-amber-800 hover:bg-amber-900 text-white px-8 py-4 rounded-full font-bold text-lg transition">
+          📞 Volat 736 684 288
+        </a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
